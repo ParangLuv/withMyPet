@@ -1,4 +1,4 @@
-package com.parangluv.withmypet;
+package com.parangluv.withmypet.controller;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -8,6 +8,6 @@ public class HelloController {
 
     @RequestMapping(value = "/api/hello")
     public String hello() {
-        return "hello";
+        return "<h1>hello</h1>";
     }
 }

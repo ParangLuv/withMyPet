@@ -80,6 +80,18 @@
             </configuration>
           </execution>
         </executions>
+
+
+      </plugin>
+
+      <!-- jrebel -->
+      <plugin>
+        <groupId>org.zeroturnaround</groupId>
+        <artifactId>jrebel-maven-plugin</artifactId>
+        <version>1.1.7</version>
+        <configuration>
+          <skip>true</skip>
+        </configuration>
       </plugin>
     </plugins>
   </build>
